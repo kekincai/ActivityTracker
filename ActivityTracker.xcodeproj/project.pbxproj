@@ -7,38 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001 /* ActivityTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101; };
-		002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102; };
-		003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103; };
-		004 /* AppTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104; };
-		005 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105; };
-		006 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106; };
-		007 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107; };
-		008 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108; };
-		009 /* StatisticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109; };
-		010 /* IdleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110; };
-		011 /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111; };
+		A01 /* ActivityTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01; };
+		A02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02; };
+		A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03; };
+		A04 /* AppTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04; };
+		A05 /* IdleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05; };
+		A06 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06; };
+		A07 /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07; };
+		A08 /* StatisticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08; };
+		A09 /* DailySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09; };
+		A10 /* AppSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10; };
+		A11 /* ProjectAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11; };
+		A12 /* ActivityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12; };
+		A13 /* AppStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13; };
+		A14 /* TrackerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14; };
+		A15 /* HeatmapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15; };
+		A16 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16; };
+		A17 /* ActivityLabeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17; };
+		A18 /* ProjectDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18; };
+		A19 /* EngagementTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19; };
+		A20 /* MeetingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20; };
+		A21 /* GoalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21; };
+		A22 /* FocusSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22; };
+		A23 /* DataRedactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23; };
+		A24 /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24; };
+		A25 /* SwitchAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25; };
+		A26 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26; };
+		A27 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27; };
+		A28 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28; };
+		A29 /* AppRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29; };
+		A30 /* TimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30; };
+		A31 /* BookmarkComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31; };
+		A32 /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		100 /* ActivityTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		101 /* ActivityTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTrackerApp.swift; sourceTree = "<group>"; };
-		102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		104 /* AppTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTracker.swift; sourceTree = "<group>"; };
-		105 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		106 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		107 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		108 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		109 /* StatisticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsManager.swift; sourceTree = "<group>"; };
-		110 /* IdleDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleDetector.swift; sourceTree = "<group>"; };
-		111 /* ExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportManager.swift; sourceTree = "<group>"; };
-		112 /* ActivityTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ActivityTracker.entitlements; sourceTree = "<group>"; };
-		113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00 /* ActivityTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01 /* ActivityTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTrackerApp.swift; sourceTree = "<group>"; };
+		F02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04 /* AppTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTracker.swift; sourceTree = "<group>"; };
+		F05 /* IdleDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleDetector.swift; sourceTree = "<group>"; };
+		F06 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		F07 /* ExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportManager.swift; sourceTree = "<group>"; };
+		F08 /* StatisticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsManager.swift; sourceTree = "<group>"; };
+		F09 /* DailySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySummary.swift; sourceTree = "<group>"; };
+		F10 /* AppSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSegment.swift; sourceTree = "<group>"; };
+		F11 /* ProjectAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAndLabel.swift; sourceTree = "<group>"; };
+		F12 /* ActivityModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModels.swift; sourceTree = "<group>"; };
+		F13 /* AppStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStatistics.swift; sourceTree = "<group>"; };
+		F14 /* TrackerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerSettings.swift; sourceTree = "<group>"; };
+		F15 /* HeatmapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapData.swift; sourceTree = "<group>"; };
+		F16 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		F17 /* ActivityLabeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLabeler.swift; sourceTree = "<group>"; };
+		F18 /* ProjectDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetector.swift; sourceTree = "<group>"; };
+		F19 /* EngagementTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementTracker.swift; sourceTree = "<group>"; };
+		F20 /* MeetingDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDetector.swift; sourceTree = "<group>"; };
+		F21 /* GoalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalManager.swift; sourceTree = "<group>"; };
+		F22 /* FocusSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionManager.swift; sourceTree = "<group>"; };
+		F23 /* DataRedactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRedactor.swift; sourceTree = "<group>"; };
+		F24 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+		F25 /* SwitchAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAnalyzer.swift; sourceTree = "<group>"; };
+		F26 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F27 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F28 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		F29 /* AppRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRankRow.swift; sourceTree = "<group>"; };
+		F30 /* TimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineRow.swift; sourceTree = "<group>"; };
+		F31 /* BookmarkComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkComponents.swift; sourceTree = "<group>"; };
+		F32 /* ActivityTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ActivityTracker.entitlements; sourceTree = "<group>"; };
+		F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34 /* TooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		200 /* Frameworks */ = {
+		G01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,52 +90,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		300 = {
+		H00 = {
 			isa = PBXGroup;
 			children = (
-				301 /* ActivityTracker */,
-				302 /* Products */,
+				H01 /* ActivityTracker */,
+				H02 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		301 /* ActivityTracker */ = {
+		H01 /* ActivityTracker */ = {
 			isa = PBXGroup;
 			children = (
-				101 /* ActivityTrackerApp.swift */,
-				102 /* ContentView.swift */,
-				104 /* AppTracker.swift */,
-				105 /* Models.swift */,
-				106 /* DataStore.swift */,
-				107 /* DashboardView.swift */,
-				108 /* SettingsView.swift */,
-				109 /* StatisticsManager.swift */,
-				110 /* IdleDetector.swift */,
-				111 /* ExportManager.swift */,
-				103 /* Assets.xcassets */,
-				112 /* ActivityTracker.entitlements */,
-				113 /* Info.plist */,
+				H03 /* App */,
+				H04 /* Core */,
+				H05 /* Models */,
+				H06 /* Features */,
+				H07 /* Views */,
+				H08 /* Utils */,
+				F03 /* Assets.xcassets */,
+				F32 /* ActivityTracker.entitlements */,
+				F33 /* Info.plist */,
 			);
 			path = ActivityTracker;
 			sourceTree = "<group>";
 		};
-		302 /* Products */ = {
+		H02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				100 /* ActivityTracker.app */,
+				F00 /* ActivityTracker.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		H03 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F01 /* ActivityTrackerApp.swift */,
+				F02 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		H04 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F04 /* AppTracker.swift */,
+				F05 /* IdleDetector.swift */,
+				F06 /* DataStore.swift */,
+				F07 /* ExportManager.swift */,
+				F08 /* StatisticsManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		H05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F09 /* DailySummary.swift */,
+				F10 /* AppSegment.swift */,
+				F11 /* ProjectAndLabel.swift */,
+				F12 /* ActivityModels.swift */,
+				F13 /* AppStatistics.swift */,
+				F14 /* TrackerSettings.swift */,
+				F15 /* HeatmapData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		H06 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F17 /* ActivityLabeler.swift */,
+				F18 /* ProjectDetector.swift */,
+				F19 /* EngagementTracker.swift */,
+				F20 /* MeetingDetector.swift */,
+				F21 /* GoalManager.swift */,
+				F22 /* FocusSessionManager.swift */,
+				F23 /* DataRedactor.swift */,
+				F24 /* BookmarkManager.swift */,
+				F25 /* SwitchAnalyzer.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		H07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F26 /* DashboardView.swift */,
+				F27 /* SettingsView.swift */,
+				H09 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		H08 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F16 /* Helpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		H09 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F28 /* StatCard.swift */,
+				F29 /* AppRankRow.swift */,
+				F30 /* TimelineRow.swift */,
+				F31 /* BookmarkComponents.swift */,
+				F34 /* TooltipView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		400 /* ActivityTracker */ = {
+		T01 /* ActivityTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 500;
+			buildConfigurationList = C01;
 			buildPhases = (
-				401 /* Sources */,
-				200 /* Frameworks */,
-				402 /* Resources */,
+				P01 /* Sources */,
+				G01 /* Frameworks */,
+				P02 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -101,25 +220,25 @@
 			);
 			name = ActivityTracker;
 			productName = ActivityTracker;
-			productReference = 100 /* ActivityTracker.app */;
+			productReference = F00 /* ActivityTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		600 /* Project object */ = {
+		R01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					400 = {
+					T01 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 601;
+			buildConfigurationList = C02;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,49 +246,70 @@
 				en,
 				Base,
 			);
-			mainGroup = 300;
-			productRefGroup = 302 /* Products */;
+			mainGroup = H00;
+			productRefGroup = H02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				400 /* ActivityTracker */,
+				T01 /* ActivityTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		402 /* Resources */ = {
+		P02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003 /* Assets.xcassets in Resources */,
+				A03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		401 /* Sources */ = {
+		P01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001 /* ActivityTrackerApp.swift in Sources */,
-				002 /* ContentView.swift in Sources */,
-				004 /* AppTracker.swift in Sources */,
-				005 /* Models.swift in Sources */,
-				006 /* DataStore.swift in Sources */,
-				007 /* DashboardView.swift in Sources */,
-				008 /* SettingsView.swift in Sources */,
-				009 /* StatisticsManager.swift in Sources */,
-				010 /* IdleDetector.swift in Sources */,
-				011 /* ExportManager.swift in Sources */,
+				A01 /* ActivityTrackerApp.swift in Sources */,
+				A02 /* ContentView.swift in Sources */,
+				A04 /* AppTracker.swift in Sources */,
+				A05 /* IdleDetector.swift in Sources */,
+				A06 /* DataStore.swift in Sources */,
+				A07 /* ExportManager.swift in Sources */,
+				A08 /* StatisticsManager.swift in Sources */,
+				A09 /* DailySummary.swift in Sources */,
+				A10 /* AppSegment.swift in Sources */,
+				A11 /* ProjectAndLabel.swift in Sources */,
+				A12 /* ActivityModels.swift in Sources */,
+				A13 /* AppStatistics.swift in Sources */,
+				A14 /* TrackerSettings.swift in Sources */,
+				A15 /* HeatmapData.swift in Sources */,
+				A16 /* Helpers.swift in Sources */,
+				A17 /* ActivityLabeler.swift in Sources */,
+				A18 /* ProjectDetector.swift in Sources */,
+				A19 /* EngagementTracker.swift in Sources */,
+				A20 /* MeetingDetector.swift in Sources */,
+				A21 /* GoalManager.swift in Sources */,
+				A22 /* FocusSessionManager.swift in Sources */,
+				A23 /* DataRedactor.swift in Sources */,
+				A24 /* BookmarkManager.swift in Sources */,
+				A25 /* SwitchAnalyzer.swift in Sources */,
+				A26 /* DashboardView.swift in Sources */,
+				A27 /* SettingsView.swift in Sources */,
+				A28 /* StatCard.swift in Sources */,
+				A29 /* AppRankRow.swift in Sources */,
+				A30 /* TimelineRow.swift in Sources */,
+				A31 /* BookmarkComponents.swift in Sources */,
+				A32 /* TooltipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		700 /* Debug */ = {
+		B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		701 /* Release */ = {
+		B02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +425,7 @@
 			};
 			name = Release;
 		};
-		702 /* Debug */ = {
+		B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -314,7 +454,7 @@
 			};
 			name = Debug;
 		};
-		703 /* Release */ = {
+		B04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -346,25 +486,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		500 /* Build configuration list for PBXNativeTarget "ActivityTracker" */ = {
+		C01 /* Build configuration list for PBXNativeTarget "ActivityTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				702 /* Debug */,
-				703 /* Release */,
+				B03 /* Debug */,
+				B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		601 /* Build configuration list for PBXProject "ActivityTracker" */ = {
+		C02 /* Build configuration list for PBXProject "ActivityTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				700 /* Debug */,
-				701 /* Release */,
+				B01 /* Debug */,
+				B02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 600 /* Project object */;
+	rootObject = R01 /* Project object */;
 }
