@@ -39,7 +39,21 @@
 		A30 /* TimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30; };
 		A31 /* BookmarkComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31; };
 		A32 /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34; };
+		TA01 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF01; };
+		TA02 /* HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF02; };
+		TA03 /* FeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF03; };
+		TA04 /* DataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF04; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		TCI01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = R01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = T01;
+			remoteInfo = ActivityTracker;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F00 /* ActivityTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,10 +91,22 @@
 		F32 /* ActivityTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ActivityTracker.entitlements; sourceTree = "<group>"; };
 		F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34 /* TooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
+		TF00 /* ActivityTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		TF01 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		TF02 /* HelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersTests.swift; sourceTree = "<group>"; };
+		TF03 /* FeaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesTests.swift; sourceTree = "<group>"; };
+		TF04 /* DataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		G01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		TG01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				H01 /* ActivityTracker */,
+				TH01 /* ActivityTrackerTests */,
 				H02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				F00 /* ActivityTracker.app */,
+				TF00 /* ActivityTrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,6 +231,17 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		TH01 /* ActivityTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				TF01 /* ModelsTests.swift */,
+				TF02 /* HelpersTests.swift */,
+				TF03 /* FeaturesTests.swift */,
+				TF04 /* DataStoreTests.swift */,
+			);
+			path = ActivityTrackerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,6 +262,24 @@
 			productReference = F00 /* ActivityTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		T02 /* ActivityTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = TC01;
+			buildPhases = (
+				TP01 /* Sources */,
+				TG01 /* Frameworks */,
+				TP02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				TD01 /* PBXTargetDependency */,
+			);
+			name = ActivityTrackerTests;
+			productName = ActivityTrackerTests;
+			productReference = TF00 /* ActivityTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,6 +292,10 @@
 				TargetAttributes = {
 					T01 = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					T02 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = T01;
 					};
 				};
 			};
@@ -252,6 +313,7 @@
 			projectRoot = "";
 			targets = (
 				T01 /* ActivityTracker */,
+				T02 /* ActivityTrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +324,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		TP02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +375,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		TP01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				TA01 /* ModelsTests.swift in Sources */,
+				TA02 /* HelpersTests.swift in Sources */,
+				TA03 /* FeaturesTests.swift in Sources */,
+				TA04 /* DataStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		TD01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = T01 /* ActivityTracker */;
+			targetProxy = TCI01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B01 /* Debug */ = {
@@ -483,6 +571,40 @@
 			};
 			name = Release;
 		};
+		TB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.activitytracker.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActivityTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ActivityTracker";
+			};
+			name = Debug;
+		};
+		TB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.activitytracker.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActivityTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ActivityTracker";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +622,15 @@
 			buildConfigurations = (
 				B01 /* Debug */,
 				B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		TC01 /* Build configuration list for PBXNativeTarget "ActivityTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TB01 /* Debug */,
+				TB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
