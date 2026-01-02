@@ -50,7 +50,7 @@ struct AppRankRow: View {
                 GeometryReader { geo in
                     RoundedRectangle(cornerRadius: 2)
                         .fill(Color.blue.opacity(0.6))
-                        .frame(width: geo.size.width * CGFloat(app.totalDuration / maxDuration))
+                        .frame(width: maxDuration > 0 ? geo.size.width * CGFloat(app.totalDuration / maxDuration) : 0)
                 }
                 .frame(height: 4)
             }
