@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A01 /* ActivityTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01; };
-		A02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02; };
-		A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03; };
-		A04 /* AppTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04; };
-		A05 /* IdleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05; };
-		A06 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06; };
-		A07 /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07; };
-		A08 /* StatisticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08; };
-		A09 /* DailySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09; };
-		A10 /* AppSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10; };
-		A11 /* ProjectAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11; };
-		A12 /* ActivityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12; };
-		A13 /* AppStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13; };
-		A14 /* TrackerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14; };
-		A15 /* HeatmapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15; };
-		A16 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16; };
-		A17 /* ActivityLabeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17; };
-		A18 /* ProjectDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18; };
-		A19 /* EngagementTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19; };
-		A20 /* MeetingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20; };
-		A21 /* GoalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21; };
-		A22 /* FocusSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22; };
-		A23 /* DataRedactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23; };
-		A24 /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24; };
-		A25 /* SwitchAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25; };
-		A26 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26; };
-		A27 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27; };
-		A28 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28; };
-		A29 /* AppRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29; };
-		A30 /* TimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30; };
-		A31 /* BookmarkComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31; };
-		A32 /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34; };
-		TA01 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF01; };
-		TA02 /* HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF02; };
-		TA03 /* FeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF03; };
-		TA04 /* DataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF04; };
+		A01 /* ActivityTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01 /* ActivityTrackerApp.swift */; };
+		A02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02 /* ContentView.swift */; };
+		A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03 /* Assets.xcassets */; };
+		A04 /* AppTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04 /* AppTracker.swift */; };
+		A05 /* IdleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05 /* IdleDetector.swift */; };
+		A06 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06 /* DataStore.swift */; };
+		A07 /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07 /* ExportManager.swift */; };
+		A08 /* StatisticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08 /* StatisticsManager.swift */; };
+		A09 /* DailySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09 /* DailySummary.swift */; };
+		A10 /* AppSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10 /* AppSegment.swift */; };
+		A11 /* ProjectAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11 /* ProjectAndLabel.swift */; };
+		A12 /* ActivityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12 /* ActivityModels.swift */; };
+		A13 /* AppStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13 /* AppStatistics.swift */; };
+		A14 /* TrackerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14 /* TrackerSettings.swift */; };
+		A15 /* HeatmapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15 /* HeatmapData.swift */; };
+		A16 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16 /* Helpers.swift */; };
+		A17 /* ActivityLabeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17 /* ActivityLabeler.swift */; };
+		A18 /* ProjectDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18 /* ProjectDetector.swift */; };
+		A19 /* EngagementTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19 /* EngagementTracker.swift */; };
+		A20 /* MeetingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20 /* MeetingDetector.swift */; };
+		A21 /* GoalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21 /* GoalManager.swift */; };
+		A22 /* FocusSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22 /* FocusSessionManager.swift */; };
+		A23 /* DataRedactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23 /* DataRedactor.swift */; };
+		A24 /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24 /* BookmarkManager.swift */; };
+		A25 /* SwitchAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25 /* SwitchAnalyzer.swift */; };
+		A26 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26 /* DashboardView.swift */; };
+		A27 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27 /* SettingsView.swift */; };
+		A28 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28 /* StatCard.swift */; };
+		A29 /* AppRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29 /* AppRankRow.swift */; };
+		A30 /* TimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30 /* TimelineRow.swift */; };
+		A31 /* BookmarkComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31 /* BookmarkComponents.swift */; };
+		A32 /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34 /* TooltipView.swift */; };
+		TA01 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF01 /* ModelsTests.swift */; };
+		TA02 /* HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF02 /* HelpersTests.swift */; };
+		TA03 /* FeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF03 /* FeaturesTests.swift */; };
+		TA04 /* DataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TF04 /* DataStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -247,7 +247,7 @@
 /* Begin PBXNativeTarget section */
 		T01 /* ActivityTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01;
+			buildConfigurationList = C01 /* Build configuration list for PBXNativeTarget "ActivityTracker" */;
 			buildPhases = (
 				P01 /* Sources */,
 				G01 /* Frameworks */,
@@ -264,7 +264,7 @@
 		};
 		T02 /* ActivityTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = TC01;
+			buildConfigurationList = TC01 /* Build configuration list for PBXNativeTarget "ActivityTrackerTests" */;
 			buildPhases = (
 				TP01 /* Sources */,
 				TG01 /* Frameworks */,
@@ -288,7 +288,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					T01 = {
 						CreatedOnToolsVersion = 15.0;
@@ -299,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C02;
+			buildConfigurationList = C02 /* Build configuration list for PBXProject "ActivityTracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -431,6 +431,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -454,6 +455,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -493,6 +495,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -509,6 +512,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -522,9 +526,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ActivityTracker/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -551,9 +558,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ActivityTracker/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -577,6 +587,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
@@ -594,6 +605,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
